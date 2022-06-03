@@ -1,3 +1,3 @@
-# Event Broker Document App
+# Event Broker Document Api
 
-Halalpedia event driven documentation app, based on Golang & ReactJS
+Halalpedia event driven documentation api, based on Golang Fiber, MongoDB
