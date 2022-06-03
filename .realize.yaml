@@ -1,0 +1,23 @@
+settings:
+  legacy:
+    force: false
+    interval: 0s
+schema:
+- name: event-broker-document-api
+  path: .
+  commands: 
+    install:
+      status: true
+      method: go build -o /home/aditia/Workspaces/HALPED-UTILS/event-broker-document-api/build
+    run:
+      status: true
+      method: /home/aditia/Workspaces/HALPED-UTILS/event-broker-document-api/build
+  watcher:
+    extensions:
+    - go
+    paths:
+    - /
+    ignored_paths:
+    - .git
+    - .realize
+    - vendor

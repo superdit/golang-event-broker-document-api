@@ -1,0 +1,31 @@
+### model create
+POST http://localhost:3100/api/model
+Content-Type: application/json
+Accept: application/json
+
+{
+    "name": "MerchantEvent2",
+    "url": "ewfwefew",
+    "description": "test"
+}
+
+### model update
+PUT http://localhost:3100/api/model/wQRYXquyADtknuFQFjjYHk
+Content-Type: application/json
+Accept: application/json
+
+{
+    "name": "AuthEventX",
+    "url": "ewfwefew",
+    "description": "test"
+}
+
+### model delete
+DELETE http://localhost:3100/api/model/GqmuyET8Xi5i5yhonFR3UD
+Content-Type: application/json
+Accept: application/json
+
+### model list
+GET http://localhost:3100/api/models?q=a
+Content-Type: application/json
+Accept: application/json
